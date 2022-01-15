@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.title-div {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 30px;
+
+}
+
+.title-div h1 {
+  margin-left: 20px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+.flaxible {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.half-width {
+  width: 50%;
+  padding-left: 20px;
+}
+
+.half-width h1{
+  font-size:52px;
+}
+
+.half-width img {
+  width: 82%;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+.half-width > * {
+  margin-bottom: 1.5rem;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  background: rgba(224, 44, 109, 1);
+  text-decoration: none;
+  border-radius: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+img#animation {
+  transition: all ease 0.5s;
+}
+img#animation:hover {
+  transform: scale(1.1) rotate(-10deg);
+}
+
+.brand-container {
+  margin-bottom: 100px;
+  width: 75%;
+  margin: 2rem auto;
+  padding: 1.9px;
+  background: linear-gradient(
+    90deg,
+    rgba(192, 204, 218, 0) 0%,
+    rgba(192, 204, 218, 0.6) 50.38%,
+    rgba(192, 204, 218, 0) 100%
+  );
+}
+.brand-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #ffffff;
+}
+.brand-border img {
+  margin-right: 5%;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.brand-border-two img {
+  margin-right: 2rem;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+.brand-border {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular-title {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.popular-container {
+  display: grid;
+  place-items: center;
+  margin-bottom: 50px;
+}
+
+.products {
+  width: 1050px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.product-box {
+  width: 330px;
+  border-radius: 7px;
+  box-shadow: rgba(68, 68, 75, 0.2) 0px 7px 29px 0px;
+}
+.product {
+  padding: 15px;
+}
+.product img {
+  width: 300px;
+  border-radius: 7px;
+}
+.product-detail {
+  display: block;
+}
+.product-detail h6 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+}
+.img-hover:hover {
+  transform: scale(1.1);
+  transition: transform ease-in 1s;
+}
+
+.product h2 {
+  color: #18191f;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.product p {
+  color: #6c6c6c;
+  margin-bottom: 15px;
+}
+
+.ratting {
+  margin-top: 15px;
+}
+
+.filled {
+  color: #ffbb00;
+}
+.fa-star-half-alt {
+  color: #979797;
+}
+
+.more-btn {
+  text-align: center;
+  margin-left: 950px;
+  margin-bottom: 100px;
+}
+
+.more-btn a {
+  text-decoration: none;
+  color: rgba(224, 44, 109, 1);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.featured-section {
+  display: flex;
+  margin-left: 165px;
+  margin-right: 165px;
+}
+
+.featured-section-text {
+  margin-left: 100px;
+}
+
+.featured-section-text p {
+  margin-bottom: 35px;
+}
+
+.featured-section-text h1 {
+  font-size: 38px;
+  line-height: 15px;
+}
+
+.custom-button {
+  text-decoration: none;
+  background: rgba(224, 44, 109, 1);
+  padding: 10px 24px;
+  color: rgb(250, 249, 249);
+  font-size: 16px;
+}
+
+.categories-title {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bonus-bg {
+  background-color: #eeeeee;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 20px;
+}
+
+.bonus-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bonus-section-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexible-container {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  border: 2px solid silver;
+}
+
+.mic-text {
+  line-height: 8px;
+  padding-right: 20px;
+}
+
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 18px;
+  margin-top: 100px;
+  width: 100%px;
+  height: 300px;
+  background: rgba(10, 8, 38, 1);
+}
+.footer-section-text {
+  color: #fff;
+  text-align: center;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.11);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}

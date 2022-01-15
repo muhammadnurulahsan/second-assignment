@@ -1,0 +1,51 @@
+.nav-container {
+  padding: 20px 0px;
+  margin-bottom: 100px;
+  background-color: rgba(44, 185, 126, 0.315);
+}
+.menu-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  list-style: none;
+  justify-content: center;
+}
+
+.menu li a {
+  font-size: 1rem;
+  color: rgb(54, 54, 54);
+  padding: 0.4rem 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all ease 0.5s;
+}
+
+.mobile-nav {
+  display: none;
+}
+.taggle {
+  display: flex;
+  justify-content: space-between;
+}
+.taggle h1 a {
+  color: rgb(54, 54, 54);
+  font-size: 1.5rem;
+}
+.cart {
+  display: none;
+  font-size: 1.5rem;
+  color: rgb(54, 54, 54);
+}
+#toggle {
+  display: none;
+}
+
+

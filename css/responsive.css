@@ -1,0 +1,78 @@
+/* Responsive Style CSS */
+@media screen and (max-width: 800px) {
+    .menu-container {
+      flex-direction: column;
+    }
+    .menu {
+      display: none;
+    }
+    .menu li {
+      margin-right: 0px;
+    }
+    .mobile-nav {
+      display: block;
+    }
+    .chart {
+      display: block;
+    }
+    .menu {
+      flex-direction: column;
+      margin-right: 0px;
+    }
+    .menu > * {
+      margin-bottom: 0.8rem;
+    }
+    .taggle {
+      flex-direction: row-reverse;
+      width: 100%;
+    }
+    #toggle:checked + .menu {
+      display: flex;
+    }
+  }
+
+  /* Responsive for Small Devices for 0px to 576px*/
+@media screen and (max-width: 576px) {
+    .flaxible {
+      flex-direction: column-reverse;
+    }
+    .half-width {
+      width: 100%;
+    }
+    .brand-item {
+      flex-direction: column;
+    }
+    .brand-border {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    .popular-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    #featured-section {
+      flex-direction: column;
+    }
+  }
+  
+  /* Responsive for Medium devices (tablets, 577px to 800px) */
+  @media screen and (min-width: 577px) and (max-width: 800px) {
+    .flaxible {
+      flex-direction: column-reverse;
+    }
+    .half-width {
+      width: 100%;
+    }
+    .brand-item {
+      flex-direction: column;
+    }
+    .brand-border {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    .popular-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    #featured-products {
+      flex-direction: column;
+    }
+  }
